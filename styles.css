@@ -1,44 +1,58 @@
 #header {
     min-height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif; /* Change to a different font style */
+    display: flex; /* make it flexbox */
+    justify-content: center; /*horizontal centering */
+    align-items: center; /*vertical centering */
+    font-family: 'Georgia'; /* Change to a different font style */
     font-size: 24px; /* Adjust the font size */
     font-variant: small-caps; /* Make text small caps */
-    background-color: #f0f0f0; /* Optional: background color for header */
 }
 
 #about {
+    display: flex; /* Make it flexbox */
+    align-items: flex-start; /* Align items to the start of the flex container */
     margin-top: 20px;
     padding: 20px;
 }
 
 #about img {
-    max-width: 150px; /* Optional: Set a maximum width for the image */
+    max-width: 300px;
     height: auto;
-    display: block;
-    margin-bottom: 10px; /* Space between the image and description */
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+#about .text-content {
+    flex: 1; /* Allow text content to take up remaining space */
 }
 
 #about p {
-    font-family: 'Arial', sans-serif; /* Change the font style */
-    font-size: 18px; /* Adjust the font size */
-    margin-bottom: 20px; /* Space between the description and social media links */
+    font-family: 'Arial'; 
+    font-size: 18px;
+}
+
+#social-media {
+    display: flex;
 }
 
 #social-media a {
     display: inline-block;
-    margin-right: 10px;
 }
 
 #social-media img {
     width: 32px; /* Adjust logo size */
     height: 32px;
-    vertical-align: middle;
 }
 
-#contact img {
-    width: 24px; /* Adjust icon size */
-    height: 24px;
+#footer {
+    background-color: #7BAFD4;
+    padding: 20px;
+    text-align: right;
+    position: absolute;
+    bottom: 0; /* this is what puts it on the bottom */
+    width: 100%;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 14px;
 }
