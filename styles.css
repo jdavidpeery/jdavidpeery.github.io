@@ -1,0 +1,44 @@
+#header {
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif; /* Change to a different font style */
+    font-size: 24px; /* Adjust the font size */
+    font-variant: small-caps; /* Make text small caps */
+    background-color: #f0f0f0; /* Optional: background color for header */
+}
+
+#about {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#about img {
+    max-width: 150px; /* Optional: Set a maximum width for the image */
+    height: auto;
+    display: block;
+    margin-bottom: 10px; /* Space between the image and description */
+}
+
+#about p {
+    font-family: 'Arial', sans-serif; /* Change the font style */
+    font-size: 18px; /* Adjust the font size */
+    margin-bottom: 20px; /* Space between the description and social media links */
+}
+
+#social-media a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#social-media img {
+    width: 32px; /* Adjust logo size */
+    height: 32px;
+    vertical-align: middle;
+}
+
+#contact img {
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+}
